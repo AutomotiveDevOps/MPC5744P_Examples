@@ -10,5 +10,11 @@ pipeline {
       }
     }
 
+    stage('SetupEnv') {
+      steps {
+        sh 'sh setup_env.sh'
+      }
+    }
+
   }
 }
