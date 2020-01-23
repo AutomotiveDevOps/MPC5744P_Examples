@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
 
 git submodule update --init
-bash MBDToolbox_MPC57xx/setup_env.sh
+cd MBDToolbox_MPC57xx
+bash setup_env.sh
