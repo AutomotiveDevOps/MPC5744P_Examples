@@ -1,9 +1,12 @@
 pipeline {
   agent any
   stages {
-    stage('Setup Env') {
+    stage('EnvTest') {
       steps {
-        sh 'bash setup_env.sh '
+        sh 'which bash'
+        sh 'which python; python --version'
+        sh 'which cmake; cmake --version'
+        sh 'which git; git --version'
       }
     }
 
