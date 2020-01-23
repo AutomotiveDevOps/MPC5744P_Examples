@@ -1,0 +1,3 @@
+[submodule "MBDToolbox_MPC57xx"]
+	path = MBDToolbox_MPC57xx
+	url = https://github.com/SimulinkDevops/MBDToolbox_MPC57xx.git
